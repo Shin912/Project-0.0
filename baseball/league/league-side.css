@@ -20,10 +20,10 @@
     position: relative; background-color: transparent;
  }
 .list-side .item-side{
-    text-align: center;
+    text-align: left;
 }
 .list-side .item-side .link-side {
-    text-align: center;
+    text-align: left;
     padding-left: 10px;
     color: black;
 }
@@ -56,4 +56,7 @@
 .list-submenu > .item-submenu:hover .submenu {
     height: 250px;
     transition-duration: 1s;
+}
+.link-side:hover{
+    height: 300px;
 }
