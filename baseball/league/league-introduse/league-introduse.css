@@ -1,0 +1,8 @@
+.container-box{
+    width: 1000px; padding-bottom: 300px;
+    margin: 200px 500px 0;
+    position: relative;
+}
+.box-introduse{
+    min-height: 700px; border: 0.5px solid #005;
+}

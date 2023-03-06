@@ -18,7 +18,6 @@
 
 .list-side {
     position: relative; background-color: transparent;
-    display: block;
  }
 .list-side .item-side{
     text-align: center;
@@ -28,9 +27,7 @@
     padding-left: 10px;
     color: black;
 }
-.list-side .item-side .link-side.btn-light{
-    background-color: antiquewhite;
-}
+
 
 /* 서브메뉴 */
 .list-submenu{
