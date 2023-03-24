@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>리그등록</title>
+	<script src="../component/bootstrap4/boostrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="../component/bootstrap4/bootstrap.min.css">
+	<script src="league-regiser.js"></script>
+	<style>
+		.box-container{
+			width: 800px; text-align: center; margin: 0 auto;
+			position: relative;
+		}
+		#lg-logo{
+			width: 100px; height: 100px;
+		}
+	</style>
+</head>
+<body>
+	<div class="box-container">
+		<div class="box-inner">
+			
+		</div>
+		<form action="/action_page.php">
+			<div class="form-group">
+				<label for="league-rogo">리그로고:</label>
+				<input type="image" class="form-control" id="lg-logo" >
+			</div>
+			<div class="form-group">
+				<label for="league-name">리그이름:</label>
+				<input type="text" class="form-control" placeholder="리그이름을 입력하세요.">
+			</div>
+			<div class="form-group">
+				<label for="region">도</label>
+					<select name="h_area1" class="form-control" onChange="cat1_change(this.value,h_area2)" >
+						<option selected>-선택-</option>
+						<option value='1'>서울</option>
+						<option value='2'>부산</option>
+						<option value='3'>대구</option>
+						<option value='4'>인천</option>
+						<option value='5'>광주</option>
+						<option value='6'>대전</option>
+						<option value='7'>울산</option>
+						<option value='8'>강원</option>
+						<option value='9'>경기</option>
+						<option value='10'>경남</option>
+						<option value='11'>경북</option>
+						<option value='12'>전남</option>
+						<option value='13'>전북</option>
+						<option value='14'>제주</option>
+						<option value='15'>충남</option>
+						<option value='16'>충북</option>
+				</select>
+					<label for="region">시</label>
+					<select name="h_area2" class="form-control" onChange="cat2_change(this.value)">
+						<option>-선택-</option>
+					</select>
+			</div>
+			<button type="button" class="btn btn-primary">리그신청</button>
+		</form>
+	</div>
+
+</body>
+</html>
