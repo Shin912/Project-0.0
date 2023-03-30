@@ -39,12 +39,12 @@
     padding-top: 30px; 
 }
 .item-league{
-    width: 400px; height: 150px; border: 1px solid #000;
+    width: 400px;  border: 1px solid #000;
     border-radius: 10px; display: inline-block; margin: 10px 35px 10px;
 }
 
 .item-league-logo{
-    width: 150px; height: 150px; border-radius: 10px;
+    width: 100px; height: 100px; border-radius: 10px;
 }
 .item-league .left-box{
     float: left;
